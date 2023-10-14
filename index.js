@@ -11,7 +11,7 @@ const navigation = `
             <div class="dropdown">
                 <a data-anchor="ideate" href="#">Ideate</a>
                 <div class="submenu submenu-ideate">
-                    <a href="#">Gamification</a>
+                    <a href="gamification.html">Gamification</a>
                     <a href="#">Constructive Alignment</a>
                 </div>
             </div>

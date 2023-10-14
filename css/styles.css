@@ -31,7 +31,7 @@ input, button, textarea, select {
   font: inherit;
 }
 
-p {
+p, li {
   font-size: 18px;
 }
 
@@ -267,6 +267,32 @@ footer a {
 
 .hide {
   display: none !important;
+}
+
+table {
+  width: 100%;
+  margin: 20px 0;
+}
+table th {
+  padding: 10px;
+  background: #43959B;
+  color: white;
+}
+table td {
+  border: 1px solid #43959B;
+  vertical-align: top;
+}
+table td ul li {
+  list-style: none;
+  word-break: break-all;
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 5px;
+}
+
+.elements li {
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
