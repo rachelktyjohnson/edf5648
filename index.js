@@ -7,6 +7,7 @@ const navigation = `
         </div>
         <nav>
             <a href="process.html">Process</a>
+            <a href="define.html">Define</a>
             <div class="dropdown">
                 <a data-anchor="ideate" href="#">Ideate</a>
                 <div class="submenu submenu-ideate">

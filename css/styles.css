@@ -110,8 +110,6 @@ header, footer {
 header {
   display: flex;
   flex-direction: column;
-  position: sticky;
-  top: 0;
 }
 @media (min-width: 720px) {
   header {
@@ -226,7 +224,7 @@ main {
 
 aside #outline {
   position: sticky;
-  top: 110px;
+  top: 50px;
   padding: 10px;
   display: flex;
   flex-direction: column;
