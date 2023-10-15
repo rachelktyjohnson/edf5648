@@ -23,7 +23,7 @@ const navigation = `
                 </div>
             </div>
             <a href="afterword.html">Afterword</a>
-            <a href="#">References</a>
+            <a href="references.html">References</a>
         </nav>
     `
 
