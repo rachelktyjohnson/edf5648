@@ -30,6 +30,10 @@ const navigation = `
 const header = document.getElementsByTagName('header')[0];
 header.innerHTML = navigation;
 
+const footer = document.getElementsByTagName('footer')[0];
+footer.innerHTML = `Made by <a target="_blank" href="http://racheljohnson.net">Rachel Johnson</a> for <a target="_blank" href="https://handbook.monash.edu/2023/units/EDF5648?year=2023">EDF5648</a> (Monash University)`
+
+
 function toggleShow(element){
     if (element.classList.contains('show')){
         element.classList.remove('show');
@@ -43,13 +47,13 @@ function toggleShow(element){
 const hamburger = document.getElementById('hamburger')
 const close = document.getElementById('close')
 const nav = document.querySelector('nav')
-hamburger.addEventListener('click', (e)=>{
+hamburger.addEventListener('click', ()=>{
     nav.style.display='flex';
     hamburger.style.display='none';
     close.style.display='block';
 })
 
-close.addEventListener('click', (e)=>{
+close.addEventListener('click', ()=>{
     nav.style.display='none';
     hamburger.style.display='block';
     close.style.display='none';
