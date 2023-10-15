@@ -19,7 +19,7 @@ const navigation = `
                 <a data-anchor="prototype" href="#">Prototype</a>
                 <div class="submenu submenu-prototype">
                     <a href="designdecisions.html">Design Decisions</a>
-                    <a href="#">Instructional Videos</a>
+                    <a href="instructionalvideos.html">Instructional Videos</a>
                 </div>
             </div>
             <a href="#">Afterword</a>
@@ -70,7 +70,7 @@ const headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6")
 
 headings.forEach((heading)=>{
     const heading_level = heading.tagName.charAt(1)
-    const id_anchor =  heading.textContent.toLowerCase().replaceAll(" ","-")
+    const id_anchor =  heading.textContent.toLowerCase().replaceAll("-", "").replaceAll(" ","-")
     outline_str += `<a href="#${id_anchor}" class="heading-level-${heading_level}">${heading.textContent}</a>`
 })
 
