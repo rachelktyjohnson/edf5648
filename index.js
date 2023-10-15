@@ -8,14 +8,14 @@ const navigation = `
         <nav>
             <a href="process.html">Process</a>
             <div class="dropdown">
-                <a data-anchor="ideate" href="#">Ideate</a>
+                <a data-anchor="ideate">Ideate</a>
                 <div class="submenu submenu-ideate">
                     <a href="gamification.html">Gamification</a>
                     <a href="constructivealignment.html">Constructive Alignment</a>
                 </div>
             </div>
             <div class="dropdown">
-                <a data-anchor="prototype" href="#">Prototype</a>
+                <a data-anchor="prototype">Prototype</a>
                 <div class="submenu submenu-prototype">
                     <a href="designdecisions.html">Design Decisions</a>
                     <a href="instructionalvideos.html">Instructional Videos</a>
