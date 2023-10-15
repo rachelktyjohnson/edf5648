@@ -22,7 +22,7 @@ const navigation = `
                     <a href="instructionalvideos.html">Instructional Videos</a>
                 </div>
             </div>
-            <a href="#">Afterword</a>
+            <a href="afterword.html">Afterword</a>
             <a href="#">References</a>
         </nav>
     `
