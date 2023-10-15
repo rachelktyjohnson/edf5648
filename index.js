@@ -18,7 +18,7 @@ const navigation = `
             <div class="dropdown">
                 <a data-anchor="prototype" href="#">Prototype</a>
                 <div class="submenu submenu-prototype">
-                    <a href="#">Design Decisions</a>
+                    <a href="designdecisions.html">Design Decisions</a>
                     <a href="#">Instructional Videos</a>
                 </div>
             </div>
