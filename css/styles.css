@@ -277,10 +277,12 @@ table th {
   padding: 10px;
   background: #43959B;
   color: white;
+  font-weight: 800;
 }
 table td {
   border: 1px solid #43959B;
   vertical-align: top;
+  padding: 10px;
 }
 table td ul li {
   list-style: none;

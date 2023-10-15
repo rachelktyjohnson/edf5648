@@ -12,7 +12,7 @@ const navigation = `
                 <a data-anchor="ideate" href="#">Ideate</a>
                 <div class="submenu submenu-ideate">
                     <a href="gamification.html">Gamification</a>
-                    <a href="#">Constructive Alignment</a>
+                    <a href="constructivealignment.html">Constructive Alignment</a>
                 </div>
             </div>
             <div class="dropdown">
@@ -70,7 +70,7 @@ const headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6")
 
 headings.forEach((heading)=>{
     const heading_level = heading.tagName.charAt(1)
-    const id_anchor =  heading.textContent.toLowerCase().replace(" ","-")
+    const id_anchor =  heading.textContent.toLowerCase().replaceAll(" ","-")
     outline_str += `<a href="#${id_anchor}" class="heading-level-${heading_level}">${heading.textContent}</a>`
 })
 
