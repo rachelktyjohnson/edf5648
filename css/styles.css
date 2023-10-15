@@ -347,4 +347,9 @@ iframe.prototype {
   font-weight: 600;
 }
 
+.references p {
+  padding-left: 70px;
+  text-indent: -70px;
+}
+
 /*# sourceMappingURL=styles.css.map */
