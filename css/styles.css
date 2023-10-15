@@ -44,6 +44,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
   font-family: "Roboto Slab", serif;
+  scroll-margin-top: 120px;
 }
 
 h1 {
@@ -110,6 +111,8 @@ header, footer {
 header {
   display: flex;
   flex-direction: column;
+  position: sticky;
+  top: 0;
 }
 @media (min-width: 720px) {
   header {
@@ -224,7 +227,7 @@ main {
 
 aside #outline {
   position: sticky;
-  top: 50px;
+  top: 100px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -292,6 +295,26 @@ table td ul li {
   margin: 5px;
 }
 
+.gamification-elements {
+  margin: 25px 0;
+}
+.gamification-elements .row {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.gamification-elements .row .element-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gamification-elements .row p {
+  margin: 0;
+  padding: 0;
+}
+
 .elements li {
   margin-left: 20px;
   margin-top: 10px;
@@ -305,6 +328,23 @@ iframe.video {
 iframe.prototype {
   width: 100%;
   aspect-ratio: 4/3;
+}
+
+#top-button {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #43959B; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 2rem; /* Increase font size */
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=styles.css.map */
